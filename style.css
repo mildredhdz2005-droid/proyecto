@@ -108,7 +108,7 @@ SECCIÓN HEADER / HERO
 .hero-content {
   max-width: 800px;
   padding: 3rem 2rem;
-  background: rgba(22, 37, 48, 0.65);
+  background: #C90507;
   backdrop-filter: blur(8px);
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -161,6 +161,21 @@ SECCIÓN MAIN / CONTENIDO PRINCIPAL
   gap: 5rem;
 }
 
+.imagen-principal {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    width: 100%;
+    margin: 20px auto;
+}
+
+.imagen-principal img {
+    max-width: 100%;   /* Se adapta al contenedor */
+    width: 600px;      /* Tamaño máximo deseado */
+    height: auto;      /* Mantiene la proporción */
+    display: block;
+    object-fit: contain;
+}
 .content-section {
   width: 100%;
 }
