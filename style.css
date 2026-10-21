@@ -12,8 +12,9 @@ IMPORTACIÓN DE FUENTES Y CONFIGURACIÓN GLOBAL
 body {
   font-family: "Jost", serif;
   min-height: 100vh;
-  background: url(./fondoo.jpeg) no-repeat center center/cover fixed;
-  color: #ffffff;
+  background: url(./Home.jpg) no-repeat center center/cover fixed;
+  color: #162530;
+
 }
 
 /* ==========================================================================
@@ -43,11 +44,16 @@ BARRA DE NAVEGACIÓN
 }
 
 .navbar-logo {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #fff;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   cursor: pointer;
+}
+
+.navbar-logo img {
+  width: 80px;
+  height: auto;
+  display: block;
 }
 
 .navbar-container .navbar-menu {
@@ -59,7 +65,7 @@ BARRA DE NAVEGACIÓN
 
 .navbar-container .navbar-menu li a {
   text-decoration: none;
-  color: #fff;
+  color: #162530;
   font-size: 1.3rem;
   font-weight: 500;
   padding: 3px 20px;
@@ -73,7 +79,7 @@ BARRA DE NAVEGACIÓN
 .navbar-container .navbar-menu li a.active {
   color: #162530;
   background: rgba(188, 212, 229, 0.8);
-  border: 2px solid #fff;
+  border: 2px solid #64748b;
 }
 
 .navbar-toggle {
@@ -109,6 +115,7 @@ SECCIÓN HEADER / HERO
   max-width: 800px;
   padding: 3rem 2rem;
   background: #C90507;
+   color: #ffffff;
   backdrop-filter: blur(8px);
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -183,6 +190,10 @@ SECCIÓN MAIN / CONTENIDO PRINCIPAL
 .section-header {
   text-align: center;
   margin-bottom: 3rem;
+  background: rgba(22, 37, 48, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  color: #ffffff;
 }
 
 .i
@@ -222,8 +233,9 @@ SECCIÓN MAIN / CONTENIDO PRINCIPAL
 }
 
 .card-icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+    font-size: 40px;
+    color: #cbd5e1;
+    margin-bottom: 1rem;
 }
 
 .card-title {
